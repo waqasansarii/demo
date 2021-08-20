@@ -45,7 +45,7 @@ const Slider = () => {
         slidesPerView={3}
         // centeredSlides={true}
         loop={true}
-        // autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         speed={3000}
@@ -109,7 +109,6 @@ const Slider = () => {
         {/* <SwiperSlide>Slide 2</SwiperSlide> */}
         {/* <SwiperSlide>Slide 3</SwiperSlide> */}
         {/* <SwiperSlide>Slide 4</SwiperSlide> */}
-        ...
       </Swiper>
     </div>
   );
