@@ -20,7 +20,7 @@ const Slider = () => {
         slidesPerView={3}
         // centeredSlides={true}
         loop={true}
-        // autoplay={{ delay: 2500, disableOnInteraction: false }}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
