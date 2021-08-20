@@ -1,0 +1,100 @@
+.slider_container{
+    margin-top: 50px;
+}
+.cards_sliders{
+    /* width: 430px; */
+    width: 100%;
+    padding: 20px 0px;
+    transition: 1.3s;
+    height: max-content;
+}
+
+.cardHead{
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 234, 234);
+    padding: 0px 15px;
+    max-height: 140px;
+    box-shadow: 0px 0px 10px gainsboro;
+}
+.cardHead>img{
+    width: 120px;
+    height: 150px;
+    object-fit: cover;
+}
+.headTitl{
+    margin-left: 10px;
+    padding-bottom: 10px;
+    /* max-height: 90px; */
+}
+.quotes::before{
+    content: '\275D';
+}
+.headTitl>p{
+    font-size: .8rem;
+}
+.quotes{
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    /* transform: rotate(180deg); */
+    width: fit-content;
+    /* height: fit-content; */
+}
+.edt_img{
+    width: 60px;
+}
+.cardMOreInfo{
+    display: none;
+    transition: 2s;
+    text-align: center;
+    padding: 30px 30px;
+
+}
+.educationInfo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cusBlck_btn{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin-top: 20px;
+}
+.moreInfo_para{
+    width: 270px;
+    margin: 10px auto;
+    font-size: .9rem;
+}
+.infoEdt1{
+    width: 100px;
+}
+.swiper-slide-next .cards_sliders{
+    background-color: white;
+    box-shadow: 0px 0px 8px gainsboro;
+    transform: scale(1.1);
+    
+}
+.swiper-slide-next .cardMOreInfo{
+    display: block;
+}
+.swiper-slide-next .cardHead{
+    box-shadow: none;
+    margin-top: 20px;
+
+}
+@media (max-width:1330px){
+    .educationInfo{
+        width: 100%;
+    }
+    .cards_sliders{
+        width: 410px;
+    }
+}
