@@ -9,7 +9,7 @@
   /* width: 430px; */
   width: 100%;
   padding: 20px 0px;
-  transition: 1.3s;
+  transition: 5s;
   height: max-content;
 }
 
@@ -102,21 +102,152 @@
   box-shadow: none;
   margin-top: 20px;
 }
-/* @media (max-width: 1370px) {
+.swiper-slide-duplicate-prev .cards_sliders,.swiper-slide-active .cards_sliders {
+  transform: scale(0.9);
+}
+@media (max-width: 1370px) {
   .educationInfo {
     width: 100%;
   }
   .cards_sliders {
     width: 410px;
   }
-} */
+}
+@media (max-width: 1270px) {
+    .swiper-slide-active{
+        width: 380px !important;
+        margin-left: -11px;
+    }
+}
 
-.swiper-slide-duplicate-prev .cards_sliders {
-  transform: scale(0.92);
+@media (max-width: 1200px) {
+    .swiper-slide-active
+    {
+        width: 380px !important;
+        margin-left: 1px;
+    }
+    .cards_sliders{
+        width: 380px !important;
+    }
+    .swiper-slide-next{
+        width: 380px !important;
+    }
+    .edt_img{
+        width: 40px;
+    }
+    .educationInfo h6{
+        font-size: .65rem;
+    }
+    .moreInfo_para{
+        font-size: .8rem;
+    }
+    .swiper-slide-next .headTitl > p{
+        font-size: .7rem;
+    }
+    .swiper-slide{
+        margin-right:3.5% !important;
+    }
+}
+@media (max-width: 1000px) {
+    .swiper-slide{
+        transform: translate(-25%,0%);
+    }
+}
+@media (max-width: 850px) {
+    .swiper-slide{
+        transform: translate(-35%,0%);
+    }
+}
+@media (max-width: 800px) {
+    .cards_sliders{
+        width: 360px !important;
+    }
+    .swiper-slide-next{
+        width: 360px !important;
+    }
+    .swiper-slide{
+        transform: translate(-40%,0%);
+    }
+    .swiper-slide-active .cardHead,.swiper-slide-duplicate-prev .cardHead{
+        max-height: 160px;
+    }
+    .swiper-slide-active  .cardHead > img,.swiper-slide-duplicate-prev .cardHead > img{
+        max-height: 170px;
+    }
+
+}
+@media (max-width: 760px) {
+    .swiper-slide{
+        transform: translate(-58%,0%);
+    }
+    .swiper-slide-duplicate-prev{
+        transform: translate(-25%,0%);
+    }
+}
+
+@media (max-width: 700px) {
+    .swiper-slide{
+        /* margin-right:2% !important; */
+        transform: translate(-60%,0%);
+    }
+    .swiper-slide-duplicate-prev{
+        transform: translate(-28%,0%);
+    }
+}
+@media (max-width: 650px) {
+    .swiper-slide{
+        /* margin-right:2% !important; */
+        transform: translate(-67%,0%);
+    }
+    .swiper-slide-duplicate-prev{
+        transform: translate(-33%,0%);
+    }
+    .swiper-slide-next .cardHead > img{
+         height: 130px;
+         width: 100px;
+    }
+    .swiper-slide-next .cardHead{
+        max-height: 125px;
+    }
+    .swiper-slide-next .headTitl > p{
+        font-size: .65rem;
+    }
+    .cardMOreInfo h2{
+        font-size: 1.1rem;
+    }
+    .infoEdt > .edt_img, .infoEdt1 > .edt_img{
+        width: 30px;
+    }
+    .educationInfo h6{
+        font-size: .6rem;
+    }
+    .cusBlck_btn{
+        font-size: .9rem;
+    }
+    .cardMOreInfo{
+        padding: 20px;
+    }
+}
+@media (max-width:600px){
+    .swiper-slide{
+        transform: initial;
+        /* margin-right: inherit !important; */
+        /* margin: 0px auto !important; */
+    }
+    .swiper-slide-duplicate-prev{
+        transform: initial;
+    }
+    .swiper-slide-active{
+        width: 450px !important;
+        /* margin: 0px auto !important; */
+        /* transform: translate(50%,0%); */
+        /* display: none; */
+    }
 }
 
 /* slick slider css  */
-.slick-active .cards_sliders {
+
+/* .slick-active .cards_sliders {
   transform: scale(0.92);
   width: 95%;
 }
@@ -126,7 +257,6 @@
   box-shadow: 0px 0px 8px gainsboro;
   transform: scale(1.1);
   margin-left: 15px;
-  /* margin-right: 10px !important; */
   width: 92% !important;
 }
 .slick-center .cardMOreInfo {
@@ -136,19 +266,17 @@
   box-shadow: none;
   margin-top: 20px;
   max-height: 150px;
-  /* padding: 30px 10px; */
 }
 .slick-center .cardHead > img {
-  /* margin-top: 10px; */
   height: 160px;
-}
-@media (max-width: 1370px) {
+} */
+/* @media (max-width: 1370px) {
   .slick-center .cards_sliders {
     width: 370px !important;
   }
   .slick-cloned .cards_sliders,
   .slick-cloned {
-    /* display: none !important; */
+    display: none !important;
   }
   .cards_sliders {
     width: 390px !important;
@@ -156,14 +284,13 @@
   .educationInfo {
     width: 100%;
   }
-}
-@media (max-width: 1200px) {
+} */
+/* @media (max-width: 1200px) {
   .slick-center{
       width: 450px !important;
   }
   .slick-active{
       width: 400px !important;
-      /* margin: 0px !important; */
 
   }
 }
@@ -235,4 +362,4 @@
     .slick-center .cardHead{
         max-height: 135px;
     }
-}
+} */
