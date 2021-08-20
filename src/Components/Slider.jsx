@@ -23,6 +23,7 @@ const Slider = () => {
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        speed={3000}
       >
         {[1, 2, 3].map(() => (
           <SwiperSlide>
